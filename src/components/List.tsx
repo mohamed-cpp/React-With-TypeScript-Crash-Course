@@ -4,7 +4,7 @@ import { IState as Props } from "../App";
 interface IProps {
     people: Props["people"]
 }
-
+// https://stackoverflow.com/questions/58630750/react-typescript-component-with-two-different-prop-interfaces
 const List: React.FC<IProps> = ({ people }) => {
 
     const renderList = (): JSX.Element[] => {
